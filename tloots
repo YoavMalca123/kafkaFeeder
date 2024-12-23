@@ -1,0 +1,291 @@
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm init -y
+>> 
+Wrote to C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder\package.json:
+
+{
+  "name": "kafkafeeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+PS C:\Users\yoavm\Desk             fkaFeeder\kaf   eeder>
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>>
+npm error Missing script: "build"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: C:\Users\yoavm\AppData\Local\npm-cache\_logs\2024-10-20T17_48_56_780Z-debug-0.log
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run
+Lifecycle scripts included in kafkafeeder@1.0.0:
+  test
+    echo "Error: no test specified" && exit 1
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>>
+npm error Missing script: "build"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: C:\Users\yoavm\AppData\Local\npm-cache\_logs\2024-10-20T17_49_11_045Z-debug-0.log
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>>
+
+> kafkafeeder@1.0.0 build
+> tsc
+
+'tsc' is not recognized as an internal or external command,
+operable program or batch file.
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm install --save-dev typescript
+>>
+
+added 1 package, and audited 2 packages in 3s
+
+found 0 vulnerabilities
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npx tsc --version
+>>
+Version 5.6.3
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>>
+
+> kafkafeeder@1.0.0 build
+> tsc
+
+error TS18003: No inputs were found in config file 'C:/Users/yoavm/Desktop/Prizma/kafkaFeeder/kafkafeeder/tsconfig.json'. Specified 'include' paths were '["src"]' and 'exclude' paths were '["C:/Users/yoavm/Desktop/Prizma/kafkaFeeder/kafkafeeder/dist"]'.
+
+
+Found 1 error.
+
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>>
+
+> kafkafeeder@1.0.0 build
+> tsc
+
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>>
+
+> kafkafeeder@1.0.0 build
+> tsc
+
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>>
+
+> kafkafeeder@1.0.0 build
+> tsc
+
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>>
+
+> kafkafeeder@1.0.0 build
+> tsc
+
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>>
+
+> kafkafeeder@1.0.0 build
+> tsc && node dist/test.js
+
+hello
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>>
+
+> kafkafeeder@1.0.0 build
+> tsc && node dist/main.ts
+
+node:internal/modules/cjs/loader:1251
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder\dist\main.ts'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1248:15)
+    at Module._load (node:internal/modules/cjs/loader:1074:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+    at node:internal/main/run_main_module:30:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.9.0
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>> 
+
+> kafkafeeder@1.0.0 build
+> tsc && node dist/main.js
+
+hello
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm install express
+>>
+
+added 65 packages, and audited 67 packages in 4s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm install @types/express --save-dev
+>>
+
+added 12 packages, and audited 79 packages in 4s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm install nodemon ts-node --save-dev
+>>
+
+added 46 packages, and audited 125 packages in 6s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build                         
+>> 
+
+> kafkafeeder@1.0.0 build
+> tsc && node dist/main.js
+
+API 1 Response: [
+  { id: 1, title: 'Inception', genre: 'Sci-Fi', year: 2010 },
+  { id: 2, title: 'The Dark Knight', genre: 'Action', year: 2008 },
+  { id: 3, title: 'Interstellar', genre: 'Sci-Fi', year: 2014 },
+  { id: 4, title: 'The Matrix', genre: 'Sci-Fi', year: 1999 },
+  { id: 5, title: 'The Godfather', genre: 'Crime', year: 1972 },
+  { id: 6, title: 'Fight Club', genre: 'Drama', year: 1999 },
+  { id: 7, title: 'Pulp Fiction', genre: 'Crime', year: 1994 },
+  {
+    id: 8,
+    title: 'The Lord of the Rings',
+    genre: 'Fantasy',
+    year: 2001
+  },
+  { id: 9, title: 'Gladiator', genre: 'Action', year: 2000 },
+  { id: 10, title: 'Titanic', genre: 'Romance', year: 1997 }
+]
+API 2 Response: [
+  { id: 1, title: 'Breaking Bad', genre: 'Drama', seasons: 5 },
+  { id: 2, title: 'Stranger Things', genre: 'Sci-Fi', seasons: 4 },
+  { id: 3, title: 'The Office', genre: 'Comedy', seasons: 9 },
+  { id: 4, title: 'Friends', genre: 'Comedy', seasons: 10 },
+  { id: 5, title: 'Game of Thrones', genre: 'Fantasy', seasons: 8 },
+  { id: 6, title: 'The Mandalorian', genre: 'Sci-Fi', seasons: 2 },
+  { id: 7, title: 'Sherlock', genre: 'Crime', seasons: 4 },
+  { id: 8, title: 'The Crown', genre: 'Drama', seasons: 4 },
+  { id: 4, title: 'Friends', genre: 'Comedy', seasons: 10 },
+  { id: 5, title: 'Game of Thrones', genre: 'Fantasy', seasons: 8 },
+  { id: 6, title: 'The Mandalorian', genre: 'Sci-Fi', seasons: 2 },
+  { id: 4, title: 'Friends', genre: 'Comedy', seasons: 10 },
+  { id: 5, title: 'Game of Thrones', genre: 'Fantasy', seasons: 8 },
+  { id: 4, title: 'Friends', genre: 'Comedy', seasons: 10 },
+  { id: 4, title: 'Friends', genre: 'Comedy', seasons: 10 },
+  { id: 4, title: 'Friends', genre: 'Comedy', seasons: 10 },
+  { id: 5, title: 'Game of Thrones', genre: 'Fantasy', seasons: 8 },
+  { id: 5, title: 'Game of Thrones', genre: 'Fantasy', seasons: 8 },
+  { id: 6, title: 'The Mandalorian', genre: 'Sci-Fi', seasons: 2 },
+  { id: 7, title: 'Sherlock', genre: 'Crime', seasons: 4 },
+  { id: 8, title: 'The Crown', genre: 'Drama', seasons: 4 },
+  { id: 9, title: 'The Simpsons', genre: 'Animation', seasons: 32 },
+  { id: 10, title: 'The Witcher', genre: 'Fantasy', seasons: 2 }
+]
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> ^C
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> ^C
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>> 
+
+> kafkafeeder@1.0.0 build
+> tsc && node dist/main.js
+
+API 1 Response: [
+  { id: 1, title: 'Inception', genre: 'Sci-Fi', year: 2010 },
+  { id: 2, title: 'The Dark Knight', genre: 'Action', year: 2008 },
+  { id: 3, title: 'Interstellar', genre: 'Sci-Fi', year: 2014 },
+  { id: 4, title: 'The Matrix', genre: 'Sci-Fi', year: 1999 },
+  { id: 5, title: 'The Godfather', genre: 'Crime', year: 1972 },
+  { id: 6, title: 'Fight Club', genre: 'Drama', year: 1999 },
+  { id: 7, title: 'Pulp Fiction', genre: 'Crime', year: 1994 },
+  {
+    id: 8,
+    title: 'The Lord of the Rings',
+    genre: 'Fantasy',
+    year: 2001
+  },
+  { id: 9, title: 'Gladiator', genre: 'Action', year: 2000 },
+  { id: 10, title: 'Titanic', genre: 'Romance', year: 1997 }
+]
+API 2 Response: [
+  { id: 1, title: 'Breaking Bad', genre: 'Drama', seasons: 5 },
+  { id: 2, title: 'Stranger Things', genre: 'Sci-Fi', seasons: 4 },
+  { id: 3, title: 'The Office', genre: 'Comedy', seasons: 9 },
+  { id: 4, title: 'Friends', genre: 'Comedy', seasons: 10 },
+  { id: 5, title: 'Game of Thrones', genre: 'Fantasy', seasons: 8 },
+  { id: 6, title: 'The Mandalorian', genre: 'Sci-Fi', seasons: 2 },
+  { id: 7, title: 'Sherlock', genre: 'Crime', seasons: 4 },
+  { id: 8, title: 'The Crown', genre: 'Drama', seasons: 4 },
+  { id: 9, title: 'The Simpsons', genre: 'Animation', seasons: 32 },
+  { id: 10, title: 'The Witcher', genre: 'Fantasy', seasons: 2 }
+]
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm run build
+>>
+
+> kafkafeeder@1.0.0 build
+> tsc && node dist/main.js
+
+API 1 Response: [
+  { id: 1, title: 'Inception', genre: 'Sci-Fi', year: 2010 },
+  { id: 2, title: 'The Dark Knight', genre: 'Action', year: 2008 },
+  { id: 3, title: 'Interstellar', genre: 'Sci-Fi', year: 2014 },
+  { id: 4, title: 'The Matrix', genre: 'Sci-Fi', year: 1999 },
+  { id: 5, title: 'The Godfather', genre: 'Crime', year: 1972 },
+  { id: 6, title: 'Fight Club', genre: 'Drama', year: 1999 },
+  { id: 7, title: 'Pulp Fiction', genre: 'Crime', year: 1994 },
+  {
+    id: 8,
+    title: 'The Lord of the Rings',
+    genre: 'Fantasy',
+    year: 2001
+  },
+  { id: 9, title: 'Gladiator', genre: 'Action', year: 2000 },
+  { id: 10, title: 'Titanic', genre: 'Romance', year: 1997 }
+]
+API 2 Response: [
+  { id: 1, title: 'Breaking Bad', genre: 'Drama', seasons: 5 },
+  { id: 2, title: 'Stranger Things', genre: 'Sci-Fi', seasons: 4 },
+  { id: 3, title: 'The Office', genre: 'Comedy', seasons: 9 },
+  { id: 4, title: 'Friends', genre: 'Comedy', seasons: 10 },
+  { id: 5, title: 'Game of Thrones', genre: 'Fantasy', seasons: 8 },
+  { id: 6, title: 'The Mandalorian', genre: 'Sci-Fi', seasons: 2 },
+  { id: 7, title: 'Sherlock', genre: 'Crime', seasons: 4 },
+  { id: 8, title: 'The Crown', genre: 'Drama', seasons: 4 },
+  { id: 9, title: 'The Simpsons', genre: 'Animation', seasons: 32 },
+  { id: 10, title: 'The Witcher', genre: 'Fantasy', seasons: 2 }
+]
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm install kafkajs
+>>
+
+added 1 package, and audited 126 packages in 3s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> npm install kafkajs
+
+up to date, audited 126 packages in 2s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\yoavm\Desktop\Prizma\kafkaFeeder\kafkafeeder> 
